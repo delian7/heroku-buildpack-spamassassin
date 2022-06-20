@@ -29,3 +29,8 @@ mkdir -p $(dirname $PROFILE_PATH)
 echo 'export PATH=$PATH:/app/vim' >> $PROFILE_PATH
 
 echo "    DONE"
+
+## trying out stuff
+apt-get install spamassassin
+echo $PROFILE_PATH
+ls -a $BUILD_DIR/.profile.d
